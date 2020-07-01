@@ -1,11 +1,11 @@
 body{
     margin: 0;
     }
-    .background{
+ .background{
         background-image: url(header-bg.png);
         background-repeat: no-repeat;
     }
-    section{
+      section{
         height: 500px;
     }
 h1{
@@ -23,12 +23,11 @@ h2{
     float:left;
     
 }
-#jack_name{margin-top: 175px;
+#first_part{margin-top: 175px;
     padding-left: 160px; 
 
 }
-
-   
+ 
 .link_up{
     text-decoration: none;
     border-radius: 5px;
@@ -38,10 +37,106 @@ h2{
     font-weight: 700;
     margin-bottom: 20px;
 }
- 
+ p{
+     font-size: 20px;
+     color: gray;
+ }
 #jack_image{
   padding-right: 100px; 
 }
 .half-width img{
     width: 100%;
+}
+#second_para{
+margin-top: 180px;
+margin-left: 100px;
+}
+#jack_image2{
+ margin-left: 100px;  
+}
+.boigraphy{
+    background-image: url(biography-bg.png);
+        background-repeat: no-repeat;
+    }
+#latest{
+    text-align: center;
+    margin-top: 300px;
+    height: 100px;
+    }
+#image img{
+    width: 30%;
+    float:left;
+}
+#image{
+ 
+    padding-left: 9%;
+}
+.latest_background{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+     background-position: right;
+  
+}
+.last{
+    text-align: center;
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+     background-position: left;
+}
+h5{
+    color: gray;
+}
+.link_up1{
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,lightsalmon,salmon);
+    padding: 30px 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+ 
+}
+
+.half-width1{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+.single-experience{
+    box-shadow:10px 10px 50px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color:white;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+ border-left: 7px solid;
+ border-image:linear-gradient(180deg,lightsalmon,tomato);
+ border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 7px solid;
+ border-image:linear-gradient(180deg,blue,tomato);
+ border-image-slice: 1;
+}
+
+
+
+
+.last_footing{
+    font-size: 30px;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
 }

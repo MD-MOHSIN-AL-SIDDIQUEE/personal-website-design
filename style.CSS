@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    }
+    .background{
+        background-image: url(header-bg.png);
+        background-repeat: no-repeat;
+    }
+    section{
+        height: 500px;
+    }
+h1{
+    color: salmon;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    
+}
+#jack_name{margin-top: 175px;
+    padding-left: 160px; 
+
+}
+
+   
+.link_up{
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,lightsalmon,salmon);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+ 
+#jack_image{
+  padding-right: 100px; 
+}
+.half-width img{
+    width: 100%;
+}
